@@ -18,6 +18,8 @@ body{background-color: #fff;}
 .colsize12{width:99.99999%;}
 .container{width: 100%; background:black;}
 
+.cimg img{height: 6em;}
+
 .sidebar ul li #bigFont{font-size: 32px;}
 
 *{margin: 0; padding: 0;}
