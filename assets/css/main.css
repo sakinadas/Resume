@@ -17,6 +17,7 @@
 	    padding: 4px 16px;
 	    outline: none;
         box-shadow: 4px 8px 10px #747474;
+        text-decoration: none;
 	}
 
 	.profilelink:hover{
