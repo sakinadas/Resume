@@ -3,6 +3,28 @@
 
 /*Newly added tags - 7/5/2017*/
 
+	.profilelink{
+	    color: #ffffff;
+	    font-size: 1em;
+	    float: right;
+	    position: relative;
+	    left: 3em;
+	    bottom: 2em;
+	    font-weight: bold;
+	    background-color: rgb(59, 89, 39);
+	    border: none;
+	    line-height: 1.5em;
+	    padding: 4px 16px;
+	    outline: none;
+        box-shadow: 4px 8px 10px #747474;
+	}
+
+	.profilelink:hover{
+		background-color: rgb(32, 38, 80);
+	    box-shadow: 4px 8px 10px #747474;
+	    cursor: pointer;
+	}
+
 	i{
 		color: #444141; 
 	}
@@ -2024,18 +2046,21 @@
 				width: 100%;
 			}
 
-		.image.avatar {
+		.image.avatar {/*
 			overflow: hidden;
-			-webkit-transform: rotateZ(90deg); /* Safari */
-		    animation-iteration-count: 5;
+			-webkit-transform: rotateZ(90deg); Safari */
+/*		    animation-iteration-count: 5;
     		animation-name: avatarmove;
     		animation-duration: 4s;
-    		animation-direction: alternate;
+    		animation-direction: alternate;*/
 		}
 
 			.image.avatar img {
-				display: block;
-				width: 100%;
+				/*display: block;
+				width: 100%;*/
+			    display: block;
+			    height: 10em;
+	    		/*box-shadow: 34px 24px 5px #000;*/
 			}
 
 /* List */
@@ -2529,9 +2554,9 @@
 		}
 
 			#header > header .avatar {
-				display: block;
-				margin: 0 auto 2.25em auto;
-				width: 8em;
+				/*display: block;*/
+				/*margin: 0 auto 2.25em auto;
+				width: 8em;*/
 			}
 
 			#header > header h1 {
